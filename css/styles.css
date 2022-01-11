@@ -1,0 +1,22 @@
+:root {
+  --main-background-color: #ffffff;
+  --secondary-background-color: #62d0df;
+  --logo-color: #62d0df;
+  --main-text-color: #22356f;
+  --secondary-text-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+}
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
