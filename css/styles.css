@@ -9,6 +9,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 .list {
   list-style: none;
@@ -19,4 +20,80 @@ a {
 }
 p {
   margin: 0;
+}
+/* header */
+/* logo */
+.logo {
+  color: var(--logo-color);
+}
+.header-logo,
+.hero-logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.13;
+  letter-spacing: -0.035em;
+}
+/* header link */
+.header-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: currentColor;
+}
+.header-link:focus,
+.header-link:hover {
+  font-weight: 500;
+}
+/* header btn */
+.header-btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+}
+/* main */
+/* hero section*/
+.hero-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.75;
+}
+.hero-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.44;
+  letter-spacing: 0.1em;
+
+  color: #fab63e;
+}
+/* thrive section */
+.thrive.section {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+}
+.thrive-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.75;
+  letter-spacing: -0.006em;
+}
+.thrive-paragraph > .thrive-paragraph-accent {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.46;
+}
+
+.thrive-paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.45;
 }
